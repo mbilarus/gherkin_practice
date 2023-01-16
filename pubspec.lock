@@ -77,12 +77,12 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_driver:
-    dependency: "direct main"
+    dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
   flutter_gherkin:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: flutter_gherkin
       url: "https://pub.dartlang.org"
@@ -96,7 +96,7 @@ packages:
     source: hosted
     version: "2.0.1"
   flutter_test:
-    dependency: "direct main"
+    dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -112,6 +112,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.8"
+  glob:
+    dependency: "direct main"
+    description:
+      name: glob
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
   lints:
     dependency: transitive
     description:

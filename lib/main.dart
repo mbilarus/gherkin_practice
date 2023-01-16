@@ -30,7 +30,7 @@ class _MultiplierScreenState extends State<MultiplierScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Multiplicator')),
+      appBar: AppBar(title: const Text('Multiplier')),
       body: Center(
           child: Column(
         children: [
